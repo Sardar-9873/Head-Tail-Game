@@ -17,11 +17,15 @@ while (totalScore < target) {
         alert("Ohho, Out by Computer (Dumb Machine)");
         break;
     } else {
+        if (userNumber > limit){
+            alert("You have crossed your limit!")
+        }else{
         totalScore += userNumber;
         if (totalScore >= target) {
             alert("Hurrrayy! You won");
         } else {
             alert("Your total is: " + totalScore);
+        }
         }
     }
 }
