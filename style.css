@@ -20,7 +20,7 @@
 .text{
     color: black !important;
     background-color: white !important;
-    font-size: 900% !important;
+    font-size: 300% !important;
     text-shadow: 2px 2px 2px blue !important;
     text-align: center !important;
 }
