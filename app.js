@@ -18,7 +18,8 @@ while (totalScore < target) {
         break;
     } else {
         if (userNumber > limit){
-            alert("You have crossed your limit!")
+            alert("You have crossed your limit!");
+            break;
         }else{
         totalScore += userNumber;
         if (totalScore >= target) {
