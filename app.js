@@ -1,6 +1,10 @@
+function HeadTailGame() {
 const target = +prompt("Enter how many target you want.");
 const limit = +prompt("Enter your limit. How many runs you'll play on a ball?");
 
+if(isNaN(target) || isNaN(limit)){
+    alert("Enter the number, if not, go and do your work.");
+}else{
 alert("Game Started | You are bating and computer is balling.");
 
 let totalScore = 0;
@@ -32,3 +36,7 @@ while (totalScore < target) {
         }
     }
 }
+}
+}
+
+HeadTailGame();
