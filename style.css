@@ -25,3 +25,14 @@
     text-align: center !important;
 }
 
+button{
+    color: aliceblue;
+    background-color: black;
+    height: 3em;
+    width: 8em;
+    border: 1px dotted black;
+    border-radius: 6px;
+    z-index: 6px;
+    display: inline-block;
+  }
+

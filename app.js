@@ -38,5 +38,3 @@ while (totalScore < target) {
 }
 }
 }
-
-HeadTailGame();
