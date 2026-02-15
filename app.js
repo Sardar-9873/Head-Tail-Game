@@ -10,21 +10,21 @@ while (totalScore < target) {
 
     const randomNumber = Math.random();
     const computerNumber = Math.ceil(randomNumber * limit);
-    alert("Computer number is : " + computerNumber);
 
     const isWicket = userNumber === computerNumber;
     if (isWicket) {
-        alert("Ohho, Out by Computer (Dumb Machine)");
+        alert("Ohho, Out by Computer (Dumb Machine) 😞");
         break;
     } else {
         if (userNumber > limit){
-            alert("You have crossed your limit!");
+            alert("You have crossed your limit! 😑");
             break;
         }else{
         totalScore += userNumber;
         if (totalScore >= target) {
-            alert("Hurrrayy! You won");
+            alert("Hurrrayy! You won 🎉🥳🎊");
         } else {
+            alert("Computer number is : " + computerNumber);
             alert("Your total is: " + totalScore);
         }
         }
