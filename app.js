@@ -13,6 +13,7 @@ while (totalScore < target) {
 
     const isWicket = userNumber === computerNumber;
     if (isWicket) {
+        alert("Computer number is : " + computerNumber);
         alert("Ohho, Out by Computer (Dumb Machine) 😞");
         break;
     } else {
@@ -22,6 +23,7 @@ while (totalScore < target) {
         }else{
         totalScore += userNumber;
         if (totalScore >= target) {
+            alert("Computer number is : " + computerNumber);
             alert("Hurrrayy! You won 🎉🥳🎊");
         } else {
             alert("Computer number is : " + computerNumber);
