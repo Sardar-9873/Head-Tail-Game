@@ -36,3 +36,6 @@ button{
     display: inline-block;
   }
 
+html{
+    font-family: sans-serif;
+}

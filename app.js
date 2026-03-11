@@ -1,4 +1,7 @@
-function HeadTailGame() {
+const startGame = document.querySelector("button");
+startGame.addEventListener("click" , headTailGame);
+
+function headTailGame() {
 const target = +prompt("Enter how many target you want.");
 const limit = +prompt("Enter your limit. How many runs you'll play on a ball?");
 
@@ -12,6 +15,7 @@ let totalScore = 0;
 while (totalScore < target) {
     const userNumber = +prompt("Enter your Number");
 
+    if(!isNaN(userNumber)){
     const randomNumber = Math.random();
     const computerNumber = Math.ceil(randomNumber * limit);
 
@@ -35,6 +39,9 @@ while (totalScore < target) {
         }
         }
     }
+}else{
+    alert("Enter the number, if not, go and do your work.");
+}
 }
 }
 }
